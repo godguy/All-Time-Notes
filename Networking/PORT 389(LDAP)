@@ -1,0 +1,38 @@
+-→ Defination
+→ It is an application protocol used over an IP Network to manage and access the distributed directory information. It is found in active directory(Windows Servers)
+→ The primary purpose of a directory service is to provide a systematic set of records, usually organised in hierarchical structure.
+   ⇒ It is Similar to a telephone directory that contains a list of subscribers with their contacts number and address.
+
+-→ How To connect to a  LDAP session?
+→ A client needs to connect  to the  server known as the Directory System Agent, Which is by default set to TCP Port 389.
+→ After the connection is established, the client and the server exchange packets of data. Basic encoding rules are used to transfer information between the server and client.
+
+-→ Structure Of LDAP
+→ The Server is capable of holding a sub-tree and it's children, beginning from a particular entry.
+
+-→ Operations On LDAP
+→ Add - This is used to insert a new entry into the directory - to -server database.
+→ Bind - On connection with the LDAP server, the default authentication state of the session is anonymous.
+   ⇒ There are basically 2 types of authentication meathods:
+      • The Simple Auth Meathod
+      • The SASL Authentication meathod(Simple Authentication And Security Layer)
+→ Delete - This operation is used to delete an ectry from the server.
+→ Modify - This operation is used by LDAP clients to make request for making changes to the already existing database.
+   ⇒ These can be made by using following operations:
+      • Add (Including a new value)
+      • Delete (Delete an already existing value)
+      • Replace (Overwriting an existingvalue with new one).
+   ⇒ Unbind - There is the inverse of bind opeation. Unbind aborts any existing operation, leaving no response in the end.
+
+--->Kali Linus For LDAP Enumeration:
+→ ldapadd         
+→ ldapdelete      
+→ ldapexop        
+→ ldapmodrdn      
+→ ldapsearch      
+→ ldapwhoami      
+→ ldapcompare     
+→ ldapdomaindump  
+→ ldapmodify      
+→ ldappasswd      
+→ ldapurl

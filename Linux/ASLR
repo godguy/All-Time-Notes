@@ -1,0 +1,7 @@
+ASLR (Address Space Layout Randomization) is a memory exploitation mitigation technique used on both Linux and Windows systems.
+
+-→ How To Tyun of ASLR
+→ You can just use sudo sysctl kernel. randomize_va_space=0 to temparaly disable ASLR.
+
+-→ How does Aslr affect the stack?
+→ Address Space Layout Randomisation (ASLR) is a technology used to help prevent shellcode from being successful. It does  this by randomly offsetting the location of modules and certain  in-memory structures. Data Execution Prevention (DEP) prevents certain  memory sectors

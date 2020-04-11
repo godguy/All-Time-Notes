@@ -1,0 +1,22 @@
+SMB:    
+    It stands for server message block. SMB operates as an application layer networking protocol mainly used for providing 
+    shared access to files, printers, and serial ports and miscellaneous communication between nodes on a network. It also
+    provides an authenticated inter-process communication mechanism.
+
+NetBIOS:
+    It Stands for Network Basic Input/Output System.
+    It provides services related to the session layer of the OSI model allowing applications on separate computers to
+        communicate over a local area network.
+    The SMB NetBIOS service listens on tcp ports 139 and 445. as well as several UDP ports. These can be scanned with tools
+        such as Nmap, nbtscan.
+
+Null Session Enumeration:
+    A null session is refers to a unauthenticated NetBIOS session between 2 computers.
+    This feature exists to  allow unauthenticated machines to obtain browser lists from other Microsoft servers. As null
+        session also allows unauthenticated hackers to obtain large amounts of information about the machine, such as password
+        policies, usernames, group names, machine names, user and host SIDs.
+
+Nmap:
+    Nmap contains many useful NSE scripts that can be used to discover and enumerate SMB services
+     SMB Nmap NSE scripts location: ls -l /usr/share/nmap/scripts/smb*
+

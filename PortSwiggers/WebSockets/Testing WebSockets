@@ -1,0 +1,40 @@
+#Any WebSecurity Vulnerability that arises with regular HTTP can also arise in relation to WebSocket Communication
+
+--->Manipulating WebSocket Connections
+→ It can enable yout to reach more attack surface.
+→ Some attacks might cause your connections to drop so you need to establish a new one.
+→ Tokens or other data in original handshake request might be stale and need updating.
+
+#######################################################################################################
+
+--->WebSocket Security Vulnerability
+→ User Supplied input transmitted to the server might be processed in unsafe ways, leading to vulnerabilities. Such as SQL Injection or XML external entity injection.
+→ Some Blind vulnerabilities reached via WebSocket might not be detectable using out-of-band (OAST) techniques.
+→ If Attacker-controlled data is transmitted via WebSocket's to other application users,then it might lead to XSS or other clint-side vulnerabilities.
+
+#######################################################################################################
+
+--->WebSocket Handshake Malipulation
+→ Some WebSocket Vuln. can only be found by manupulating the WebSocket Handshake.
+ Misplaced trust in HTTP headers to perform secuity decisions, Such as the X-Forwarded-For header.
+ Flaws in session handing mechanisms, since the session context in which WebSocket messages are processed is generally determined by session context of the handshake message.
+ Attack surface introduced by custom HTTP headers used by the application.
+
+#######################################################################################################
+
+--->Cross-Site WebSocket Hijacking
+→ WebSocket Security Vulnerabilities aries when an attacker makes a cross-domain WebSocket connection from a website that the attacker controls.
+→ It involves exploiting a cross-site request forgery(CSRF) vulnerability on a WebSocket Handshake.
+→ Arieses when the WebSocket's handshake request relies solely on HTTP cookies for session handling and does not contain any CSRF tokenor other unpredictiblr values.
+
+--->Impacts of cross-site WebSocket Hijacking
+→ Perform unauthorised actions masqueading as the victim user.
+→ Retrives sensitive data that the user can access.
+
+#######################################################################################################
+
+--->Securing A WebSocket Connection
+→ Use wss://protocol(WebSocket over TLS(Transport Layer Security)).
+→ Hard code the URL of the WebSocket's endpoint, and certainly don't incorporate user-contrillable data into this url.
+→ Protect the WebSocket handshake message against CSRF, to avoid cross-site WebSocket highjacking vulnerabilities.
+→ Treat data received via the WebSocket's as untrusted in both directions. Handle data saftey on both the server and client ends, to prevent input-based vulnerabilities such as SQL injection and Cross-Site Scripting.

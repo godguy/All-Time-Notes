@@ -1,0 +1,3 @@
+1. Copy The SSH Key In A File
+2. then use ssh2john.py and cast it into a file with extention .john.ssh ( Command:   python ssh2john.py location/SshKeyFound > location/FileName.john.ssh   )
+3. then use john to crack it (Command: john FileName.john.ssh --wordlist=WordlistOfYourDesire)

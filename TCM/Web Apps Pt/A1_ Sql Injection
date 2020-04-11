@@ -1,0 +1,27 @@
+Sql injection is an attack malicious SQL statements are injected into SQL database.
+SQL injections is easy to avoid, but still happens very often maybe because of poor code.
+If successful, we can read sensitive databases, extract information, and potentially a shell.
+
+COMMON SQL VERBS:
+    sql statements begins with verbs.
+        SELECT: Retrieves data from a table.
+        INSERT: Adds data to a server.
+        DELETE: Removes data from a data.
+        UPDATE: Modifies data in a table.
+        DROP:   Deletes a table.
+        UNION:  Combines data from multiple queries.
+
+SPECIAL CHARACTERS:
+    Important Special Characters:
+        ' and " ------- Are String Delimiters.
+        --, /* and # -- Are Comment Delimiters
+        * and % ------- Are Wildcards.
+        ; ------------- End SQL Statements.
+        = + <> () etc - Bunch Of Others That Follow Programmatic Logic.
+
+DEFENCES AGAINST SQL INJECTION:
+    Defence 1: Parameterized Statements:
+        Example 1: "SELECT * FROM users WHERE email =?";
+        Example 2: "SELECT * FROM users WHERE email ='''+email+'''";
+    
+    Defence 2: Sanitizing Input
