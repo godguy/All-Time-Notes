@@ -1,0 +1,24 @@
+What Is XML?
+    XML is software and hardware independent tool for storing and transporting data.
+    XML stands for eXtensible Markup Language and is similar to html.
+    XML was designed to store and transport data and was designed to be self descriptive.
+    with XML author must define both the tags and document structure.
+
+Why To use xml?
+    XML simplifies data sharing, data transport, platform changes and data availability.
+        XML stores data in plain text format which provides a software and hardware independent
+        method of sorting, transporting and sharing data.
+
+What is DTD?
+    DTD stands for Document Type Definition.
+    It defines the structure, legal elements and attributes of an XML document. With a DTD,
+        groups of people can agree on a standard DTD or data structure for interchanging data.
+    An application can use  DTD to verify that xml data is in the proper format.
+    DTD can be defined internally within an XML document or from an external DTD.
+
+PCDATA = Parsed Character Data.
+
+What are DTD Entities?
+    An entity is a mechanism to define replacement values where an entity name is declared,
+        and when that name is referenced the entity value is read in it's place.
+    

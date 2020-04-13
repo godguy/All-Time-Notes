@@ -1,0 +1,4 @@
+File Transfer Protocol:
+    Transfer computer files between a client and server on a computer network.
+    Insecure Method.
+    Data Transferred in clear text.

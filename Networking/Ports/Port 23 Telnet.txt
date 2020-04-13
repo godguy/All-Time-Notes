@@ -1,0 +1,5 @@
+Telnet:
+    Provides Bidirectional interactive text oriented communication facility using a virtual
+        terminal connection.
+    Remote Access Via Command Prompt :)
+    Like SSH, But Insecure, Came Years before SSH.

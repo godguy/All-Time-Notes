@@ -1,0 +1,5 @@
+Lightweight Directory Access Protocol:
+    Open, vendor-neutral, industry standard for accessing and maintaining distributed
+        Directory information services.
+    LDAP and Active Directory use this port.
+     

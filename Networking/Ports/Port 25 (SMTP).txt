@@ -1,0 +1,5 @@
+Simple Mail Transfer Protocol:
+    Internet standard for sending electronic mail.
+    RFC 821 was defined originally in 1982.
+    RFC 5321 Developed in 2008(Current Version).
+    

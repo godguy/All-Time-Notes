@@ -1,0 +1,3 @@
+Session Initiation Protocol:
+    Provides signaling and controlling multimedia communication session in applications.
+    Used for Internet telephony for voice and video calls, VOIP and instant messaging.   

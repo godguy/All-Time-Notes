@@ -1,0 +1,4 @@
+Simple Network Management:
+    Provides collection and organization of information about managed devices on IP Network.
+    Can modify that information to change device behavior, commonly used in network devices.
+    

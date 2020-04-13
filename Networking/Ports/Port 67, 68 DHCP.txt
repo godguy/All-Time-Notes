@@ -1,0 +1,5 @@
+Dynamic Host Control Protocol:
+    DHCP dynamically assigns an ip address and other network configuration to a client.
+    Enables computers request IP Addresses and networking parameters automatically.
+    Reduces burden on network administrators.
+    

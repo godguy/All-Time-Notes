@@ -1,0 +1,4 @@
+Domain Name System:
+    Hierarchical decentralized naming system for computers, services or other resources connected
+        to the internet or private network.
+    Concerts domain names to IP Address.

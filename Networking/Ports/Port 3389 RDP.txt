@@ -1,0 +1,7 @@
+Remote Desktop Protocol:
+    Proprietary protocol developed by Microsoft.
+    Provides a user with a graphical interface to connect to another computer over a
+        network.
+    Users employed RDP client software for this purpose and the other computer must run
+        RDP server software.
+        

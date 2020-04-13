@@ -1,0 +1,5 @@
+Internet Mail Application:
+    Provides e-Mail clients to retrieve e-mail messages from a mail server over a TCP/IP
+        connection.
+    Allows the end users to view and manipulate the messages as if they're stored locally.
+    

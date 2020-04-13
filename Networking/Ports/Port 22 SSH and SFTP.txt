@@ -1,0 +1,7 @@
+Secure Shell:
+    Cryptographic network protocol for operating network services securely over an unsecured
+        network.
+    Best known for remote login to computer systems by users.
+
+SSH File Transfer Protocol:
+    Provides file access, file Transfer and file management over any reliable data stream.
