@@ -1,4 +1,0 @@
-Hyper Text Transfer Protocol:
-    Foundation for data communication for www(World Wide Web)
-    Designed for distributed, collaborative and hypermedia presentation across many devices.
-    Unsecured Web Browsing.
