@@ -1,0 +1,48 @@
+Get Method:
+    The GET method retrieves whatever information is identified by the request Uniform Resource Identifier (URI).
+        The termURI is commonly used synonymously with Uniform ResourceLocator (URL).
+        Technically, a URL is a type of URI that defines a resource and includes a way to
+        locate that resource by way of its network location.
+
+    GET requests shouldn’t alter data; they should just retrieve data from a server
+        and return it in the HTTP message body. For example, on a social media site, 
+        a GET request should return your profile name but not update your profile.
+    This behavior is critical for the cross-site request forgery (CSRF)
+
+Head Method:
+    The HEAD method is identical to the GET method except the server must not return a 
+        message body in the response.
+
+Post Method:
+    The POST method invokes some function on the receiving server, as determined by the 
+        server. In other words, typically there will be some type of backend action performed,
+        such as creating a comment, registering a user, deleting an account,and so on. The action
+        performed by the server in response to a POST can vary. Sometimes, the server may take 
+        no action at all .For example, a POST request could cause an error to occur while a
+        request is being processed, and a record wouldn’t be saved on the server.
+
+Put Method:
+    The PUT method invokes some function that refers to anal ready existing record on the 
+        remote website or application. For example, it might be used when updating an account,
+        a blog post, or so on that already exists. Again, the action performed can vary and 
+        might result in the server taking no action at all.
+
+Delete Method:
+    The DELETE method requests that the remote server delete a remote resource identified
+        with a URI.
+
+Tracer Method:
+    The TRACE method is another uncommon method; it is used to reflect the request message
+        back to the requester. It allows the requester to see what is being received by the 
+        server and to use that information for testing and collecting diagnostic information.
+
+Connect Method:
+    The CONNECT method is reserved for use with a proxy, a server that forwards requests to
+        other servers. This method starts two-way communications with a requested resource.
+        For example, the CONNECT method can access websites that use HTTPS via a proxy.
+
+Options Method:
+    The OPTIONS method requests information from a server about the communication options available. For example,
+        by calling for OPTIONS, you can find out whether the server accepts GET, POST, PUT, DELETE, and OPTIONS calls.
+        This method won’t indicate whether a server accepts HEAD or TRACE calls.
+        Browsers automatically send this type of request for specific content types, such as application/json.

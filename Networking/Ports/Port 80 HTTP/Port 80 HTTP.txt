@@ -1,0 +1,9 @@
+Hyper Text Transfer Protocol:
+    Foundation for data communication for www(World Wide Web)
+    The HTTP standard defines the following request methods:GET, HEAD, POST, PUT, DELETE, 
+        TRACE, CONNECT,  and OPTIONS(PATCH was also proposed but not commonly implemented in 
+        the  HTTP  RFC).  At  the  time  of  this  writing,  browsers  willonly  send GET 
+        and POST  requests  using  HTML.  
+        Any PUT,PATCH, or DELETE request is the result of JavaScript’s invoking the  HTTP request.
+        This  will  have  implications  later  in  the book when we consider vulnerability
+        examples in applications expecting these method types.
