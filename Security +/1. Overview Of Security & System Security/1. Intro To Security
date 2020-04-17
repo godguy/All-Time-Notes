@@ -1,0 +1,14 @@
+Information Security:
+    Act of protecting data and information from unauthorized access, unlawful modification,
+        disruption, disclosure, corruption and destruction.
+
+Information System Security:
+    Act of protecting system that holds and process our crucial data.
+
+Comments:
+#Unlawful Modification means Modification or editing of data by some unauthorized 3rd Person.
+#Unlawful Disruption means Creating problems while using or accessing the data.
+#Unlawful Disclosure means Preventing Leakage of sensitive or private data.
+#Unlawful Corruption or corruption means preventing data from self corruption by taking 
+    regular backups or by some unauthorized 3rd party.
+#Unlawful Destruction means preventing corruption or deletion of data by 3rd party.

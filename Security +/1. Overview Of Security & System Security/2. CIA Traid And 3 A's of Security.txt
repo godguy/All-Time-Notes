@@ -1,0 +1,11 @@
+CIA Triad: C = Confidentiality I = integrity A = Availability
+    1. Confidentiality: Information has not been disclosed to unauthorized people.
+    2. Integrity: Information Has not been modified or altered without proper authorization.
+    3. Availability: Information is able to be stored accessed or protected at all times.
+
+3 A's of Security: A's = Authentication, Authorization, Accounting
+    1. Authentication: When a person's identity is identity is established with proof and
+        confirmed by system.
+    2. Authorization: Occurs when a user is given access to a certain piece of data or certain
+        area of building.
+    3. Accounting: Tracking of data, computer usage, network resources. 

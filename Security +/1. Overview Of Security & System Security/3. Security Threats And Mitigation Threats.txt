@@ -1,0 +1,15 @@
+Security Threats:
+    1. Malware: Short hand term for malicious software.
+    2. Unauthorized Access: Access to a computer/system resources with permission or concent
+        of the owner.
+    3. System Failure: Occurs when a computer or an individual application fails.
+    4. Social Engineering: Act of manipulating users into reveling confidential information
+        or performing other detrimental actions.
+    
+Mitigation Threats:
+    1. Physical Control (Not Talking about sexual things of course)
+    2. Technical Control
+    3. Administrative Controls.
+
+#These are obvious so need to explain :)
+#There is a whole section upcoming no need to cry bitch.
