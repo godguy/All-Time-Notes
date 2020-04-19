@@ -36,14 +36,37 @@ Physical Active Directory Components:
             -> An administrative boundary for applying policies to groups of objects.
             -> A replication boundary to replicate data between domain controllers.
             -> An authentication and authorization boundary that provides a way to limit the scope of access to resource.
+    
     4. Trees: A domain tree is hierarchy of domain in AD DS.
             -> Share a contiguous namespace with parent domain. ({goodguy.com} is a parent domain whereas {members.goodguy.com} is a child domain and all these domains create a tree)
             -> Can have additional child domains.
             -> By default create a two-way transitive trust with other domains.
+    
     5.Forest: A forest is a collection of 1 or more domain trees.
             -> Shares a common schema.
             -> Share a common configuration partition.
             -> Share a common global catalog to enable searching.
             -> Enables trust between all domains in forest.
             -> Share the enterprise admins and schema admins groups.
-            t
+    
+    6. Organizational Units(OU's): OU's are active directory containers that can contain users, groups, computers,
+        and other OU's.
+            -> Represents your organization hierarchically and logically.
+            -> Manage a collection of objects in consistent way.
+            -> Delegate permission to administer groups of objects.
+            -> Apply policies.
+    
+    7. Trusts: Trust provide a mechanism to grant access to resources in other domains.
+            -> Directional Trust: The trust direction flows from trusting domains to trusted domains.
+            -> Transitive Domains: The trust is extended beyond a 2 domain trust to include other trusted domains.
+            -> All Domains in the forest trust all other domains in the forest.
+            -> Trusts can extend outside the forest.
+            
+    8. Objects:
+            -> User: Enables network resource access to user.
+            -> InetOrgPerson: 1. Similar to a user account. 2. Used for compatibility with other directory services.
+            -> Contacts: Used Primarily used to assign e-mail address to external users
+            -> Groups: Used to simplify the administration of access control.
+            -> Computers: Enables authentication and auditing of computer access to resource.
+            -> Printers: used to simplify the process of locating and connecting to printers.
+            -> Shared Folders: Enables users to search for shared folders based on properties.
