@@ -1,0 +1,12 @@
+what is Active Directory?
+    Domain service developed by Microsoft to manage windows domain
+        networks.
+
+    Stores information related to objects, such as Computers, Users, Printers etc.
+        Think about it as a phone book for windows.
+
+    Authentication using kerbeos ticket.
+        Non-Windows devices, such as Linux machines, firewalls etc
+            can also authenticate to active directory via RADIUS or LDAP.
+            
+            
