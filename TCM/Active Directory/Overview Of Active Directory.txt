@@ -1,6 +1,6 @@
 what is Active Directory?
     Domain service developed by Microsoft to manage windows domain
-        networks.
+        networks. 
 
     Stores information related to objects, such as Computers, Users, Printers etc.
         Think about it as a phone book for windows.
@@ -8,5 +8,42 @@ what is Active Directory?
     Authentication using kerbeos ticket.
         Non-Windows devices, such as Linux machines, firewalls etc
             can also authenticate to active directory via RADIUS or LDAP.
-            
-            
+
+Why Active Directory?
+    Active directory is most commonly used identity management service in the world.
+    95% of the 1000 companies implemented this service in their network.
+    Can be exploited without ever attacking patchable exploits.
+        Instead we abuse trust, features, components and more.
+
+Physical Active Directory Components:
+    1. Domain Controllers:
+        -> Hosts a copy of AD DS directory store.
+        -> Provides authenticate and authorization services.
+        -> Replicate updates to other domain controllers in the domain or forest.
+        -> Allow administrative access to manage user accounts and network resources.
+
+    2. Active Directory DS Data Stores: Contains database files and processes that store and manage directory 
+        information for user service and applications.
+            -> Consists of Ntds.dit file.(Ntds.dit contains everything stored in AD data, like: User, objects, groups, password hashes etc of that domain)
+            -> Is stored by default in the %SYSTEMROOT%\NTDS folder on all domain controllers.
+            -> Is accessible only through the domain controller process and protocols.
+
+    3. Logical AD Components:
+        AD DS Schema:(Kind Of Rule Book)
+            -> Defines every type of object that can be stored in the directory.
+            -> Enforce rules regarding object creation and configuration.
+        Domains: Domains are used to group and manage objects in an organization.
+            -> An administrative boundary for applying policies to groups of objects.
+            -> A replication boundary to replicate data between domain controllers.
+            -> An authentication and authorization boundary that provides a way to limit the scope of access to resource.
+    4. Trees: A domain tree is hierarchy of domain in AD DS.
+            -> Share a contiguous namespace with parent domain. ({goodguy.com} is a parent domain whereas {members.goodguy.com} is a child domain and all these domains create a tree)
+            -> Can have additional child domains.
+            -> By default create a two-way transitive trust with other domains.
+    5.Forest: A forest is a collection of 1 or more domain trees.
+            -> Shares a common schema.
+            -> Share a common configuration partition.
+            -> Share a common global catalog to enable searching.
+            -> Enables trust between all domains in forest.
+            -> Share the enterprise admins and schema admins groups.
+            t
