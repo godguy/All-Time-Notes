@@ -1,0 +1,21 @@
+5 Types Of People: 
+    1. White Hats: Non malicious hackers who attempts to break into a companies systems at
+        there request.
+    2. Black Hats: Malicious hackers who break into computer systems and networks without
+        authorization or permission.
+    3. Gray Hats:  Hackers without any affiliation to a company that attempts to break into
+        a company's network but risks the by doing so.
+    4. Blue Hats:  Hackers who attempts to hack into a network with permission of the company
+         but are not employed by the company. (example: Bug Hunters)
+    5. Elite:      Hackers who find and exploit vulnerabilities before anyone else does.
+        They Make their own tools and exploits. it is said that 1 out of 10000 people is a elite.
+
+Threat Actors:
+    1. Script Kiddie:   Hackers with little to no skills who only use the tools and exploits
+        written by others.
+    2. Hacktivists:     Hackers who are driven by a cause like social change, political agenda,
+        and sometimes even terrorism. Most Well known Hacktivists Group is Anonymous.
+    3. Organized Crime: Hackers who are part of a crime group that is well funded any highly
+        sophisticated.
+    4. Advanced Persistent Threats: Highly trained and funded group of hackers(often by nation states)
+        with convert and open-source intelligence at their disposal.
