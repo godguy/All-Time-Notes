@@ -1,0 +1,7 @@
+What is SMB Replay?
+    Instead of cracking hashes gathered with responder, we can instead relay those hashes to specific 
+        machine and potentially gain access.
+    
+Requirements:
+    1. SMB signing must be disabled on the target.
+    2. Relayed user credentials must be admin on machine.

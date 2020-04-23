@@ -1,0 +1,9 @@
+The Best Defence in this case is to disable LLMNR and NBT-NS:
+    -> To Disable LLMNR, Select "Turn Off Multicast Name Resolution" under Local computer policy > computer configuration > Administrative Templates > Network > DNS client in group policy editor.
+    -> To Disable NBT-NS navigate to Network connections > Network Adapter Properties > TCP/ipv4 properties > Advanced Tab > WINS tab and select disable NeTBIOS over TCP/IP.
+
+If a compony must use or cannot disable LLMNR/NBT-NS, the best course of action is require is to:
+    1. Require network access control.
+    2. Require Strong user password e.g, >14 characters in length and limit common word usage).
+        The more complex and long the password, the harder it is for an attacker to crack the hash.
+        
