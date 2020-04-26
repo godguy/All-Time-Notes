@@ -1,0 +1,32 @@
+IDS -> Intrusion Detection Systems:
+    Devices or software applications that maintain a system or network and analyzes the data passing through it in
+        order to identify an incident or attack.
+    
+    2 Types Of IDS:
+        1. HIDS(Host Based IDS):
+            Software installed on a system or server & will log everything on a system identify the suspicious things
+                or programs.
+        
+        2. NIDS(Network Based IDS):
+            Hardware installed in a network and all the traffic goes through switch will be copied and sent to the
+                NIDS will log if something suspicious & alert on it.
+
+How IDS Detect Intrusion:
+    3 Ways Of Detection:
+        -> Signature-Based: A specific string of bytes of string triggers an alert.
+            This Method will search for a specific string of bytes which trigger an alert.
+        
+        -> Policy-Based: Relies on specific declaration of the security policy. (i.e. No Telnet Authorization)
+
+        -> Anomaly-Based: Analyzes the current traffic against an established baseline and triggers an alert if
+            outside the statistical average.
+
+4 Types of alerts:
+    1. True Positive: Malicious Activity is identified as an attack.
+    2. True Negative: Legitimate activity is identified a legitimate activity.
+    3. False Positive: Legitimate Activity is identified as an attack.
+    4. False Negative: Malicious Activity is identified an legitimate attack.
+    
+    -> IDS can only alert and log suspicious activity.
+    -> IPS(Intrusion Prevention System) can also stop malicious activity fromm being executed.
+    -> HIDS logs are used to recrate the events after an attack as occurred.

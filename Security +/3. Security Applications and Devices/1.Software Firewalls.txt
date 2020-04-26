@@ -1,0 +1,19 @@
+Software Firewalls:
+    Personal firewalls AKA Host Based Firewalls: Software applications that protects a single computer from an
+        unwanted internet traffic. These works by applying set of rules on the traffic that is attempting t come into
+        or go out of protected system.
+
+Firewalls In Different Systems:
+    1. Windows: Windows Firewall
+        There are 2 types of windows firewalls:
+            -> Basic Version(Can be found in Control Panel)
+            -> Windows Firewall with advanced security(can be accessed by tying wf.msc)
+
+    2. MacOs X: PF & IPFW:
+            -> PF: Packet Filter(Found in osX 10.10 or higher)
+            -> IPFW: Internet Protocol Firewall
+        ->Both can be found in free bsd systems.
+
+    3. Linux:   Iptables
+
+

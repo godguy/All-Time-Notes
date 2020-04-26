@@ -1,0 +1,18 @@
+Pop Up Blocker:
+    Most Web browsers have the ability to block javascript created pop-ups.
+
+Content Filters:
+    Blocking of external files containing javascript images and web-pages from loading in a browser.
+
+Data Loss Prevention(DLP):
+    Monitor's the data of a system while in use, in transit or at the rest to detect attempts to steal the data.
+
+End Point DLP System:
+    Software based client that monitor's that data in use on a computer and can stop a file transfer or alert an 
+        admin of the occurrence.
+
+Network DLP System:
+    Software or hardware based solution that is installed on the perimeter of the network to detect data in transit.
+
+Storage DLP System:
+    Software installed on system/server in data-center to inspect the data at rest. 

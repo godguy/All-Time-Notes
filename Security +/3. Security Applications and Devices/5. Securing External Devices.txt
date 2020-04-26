@@ -1,0 +1,38 @@
+Removable Media Controls:
+    Technical limitations placed on a system in regards to the utilization of usb storage devices and other removable media.
+        -> Always encrypt files on removable media.
+
+NAS(Network Attached Storage):
+    Storage devices that are connected directly to your organization's network.
+        -> NAS systems often implement RAID arrays to ensure high availability.
+
+SAN(Storage Area Network):
+    Network designed specifically to perform block storage functions that may consist of NAS devices.
+        -> NAS Tips:
+            --> Use Data Encryption.
+            --> Use Proper Authentication.
+            --> Log NAS Access.
+
+Disk Encryption:
+    Encryption scrambles data into unscrambled information.
+
+    2 Types of Encryption:
+        -> Self Encrypting Devices(SED):
+            Storage devices that perform whole disk encryption by using embedded hardware.
+        
+        -> Software Based Encryption:
+            Encrypting data with a help of tools:
+                --> Mac: File Vailt
+                --> Windows: Bit Locker
+
+    -> TPM(Trusted Platform Module):
+        Chip residing on the motherboard that contain an encryption key.
+
+        If your motherboard doesn't have TPM, You can use an external usb drive as a key.
+    
+    AES(Advanced Encryption Standards):
+        Used by both windows bit-locker and macOs file-vault. It is a symmetric key encryption that supports 128bit
+            and 256 bit key's. Encryption adds security but has lower performance.
+    
+    HSM(Hardware Security Module):
+        Physical devices that act as a secure crypto-processor during the encryption process.(Hardware Based Encryption)

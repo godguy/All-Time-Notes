@@ -1,0 +1,11 @@
+BIOS(Basic Input And Output System):
+    -> Firmware that provide the computer instructions for how to accept input and send output.
+
+UEFI(Unified Extensible Firmware Interface)
+
+Securing:
+    1. Flash the BIOS.                  4. Disable the external ports and devices.
+    2. Use a BIOS Password              5. Configure the BIOS boot order. 
+    3. Enable the secure boot option.
+
+

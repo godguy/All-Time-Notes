@@ -1,0 +1,7 @@
+Securing Wireless Devices:
+    Malware(Module):
+        WPA2(Wifi Protected Access 2) is the highest level of wireless security. It also 
+            uses AES encryption, Bluetooth pairing links key to encrypt the connection,
+            wired devices are almost more secure than wireless one.
+        
+        Ensure your mobile device si patched and updated.
