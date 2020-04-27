@@ -4,4 +4,4 @@ Securing Wireless Devices:
             uses AES encryption, Bluetooth pairing links key to encrypt the connection,
             wired devices are almost more secure than wireless one.
         
-        Ensure your mobile device si patched and updated.
+        Ensure your mobile device is patched and updated.

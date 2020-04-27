@@ -1,0 +1,9 @@
+SIM:
+    -> Subscriber Identity Module.
+    -> Its integrated circuit that securely stores the International Mobile Subscriber Identity(IMSI) number
+        and its related key.
+
+SIM Cloning:
+    -> Allows 2 phones to utilize the same service and allows an attacker to gai access to the phone's data.
+    -> SIMv1 cards were very easy to clone but newer SIMv2 cards are much harder.
+    

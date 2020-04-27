@@ -1,0 +1,6 @@
+BlueJacking:
+    -> Sending of unsolicited messages to bluetooth enabled devices.
+
+BlueSnarfing:
+    -> Unauthorized access of information from a wireless device over a bluetooth connection.
+
