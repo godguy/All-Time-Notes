@@ -1,0 +1,32 @@
+The Shell:
+    Shell (or command line interpreter) began with first unix shell back in 1971, called the V6 Shell. Written by
+        Ken Thompson from Bell Labs, this shell (simply the /bin/sh) was a user program that executed from outside of
+        the kernal.
+
+    Many of the things we have come to expect from bash were added after the initial shell's development (Like Globbing
+        for parameter or the 'if' command for conditional evaluation). But it introduce many of the common aspects of our
+        current shell(including Bash) like redirection and piping as well as sequential and asynchronous comm anands.
+
+    In 1977, the Bourne Shell was introduced having been created by stephen bourne while at Bell Labs for V7 unix.
+        The Bourne Shell itself was written with one of the main goals being to support interactive execution of
+        commands for operating system, thus scripting was born :)  .
+
+    The BourneShell introduced more advanced concepts in the shell and scripting capabilities such as control
+        structure (if, while, case) as well as signal handling and command execution.
+    
+    These shells gave birth to a large number of shells we have all heard of Korn, Almquish, Cshell, and eventually
+        The Bourne Again Shell(Which We Refer to as bash).
+    
+
+The Bourne Again Shell(Bash):
+    This is an open source (GNU) project that was intended to completely replace the Bourne Shell. It was developed
+        by Brain Fox and has become the standard shell for almost all linux distributions over time.
+
+    Bash does incorporates full compatibility with the previous Bourne Shell as well as the incorporations of
+        features from from Kron and C Shell.
+
+    In addition to the basic scripting that has always been a part of bourne, Bash provides the ability to define functions,
+        include regular expression and associative array among other advanced features.
+
+    Bash is also released under GLP rather than BSD Licenses.
+    

