@@ -1,0 +1,35 @@
+How to Create a New User with sudo Permission in Kali Linux?
+
+First, Right click on the Desktop, and then click on 'Open in Terminal' to Open Terminal. After that, follow the steps below:-
+
+ Step 1: Create a New Normal User by command below:-
+
+         useradd -m testuser
+
+         #-m creates a home directory for the user.
+
+
+ Step 2: Set password for the user:-
+
+         passwd testuser
+
+
+ Step 3: Now, Add user to sudo group (This allows user to install software, use the printer etc.)
+
+         usermod -a -G sudo testuser
+
+         # -a means add
+
+         #-G sudo means to add the user to sudoers group
+
+
+ Step 4: Now, we have to specify the shell for our new user.
+
+         chsh -s /bin/bash testuser
+
+        # chsh means change login shell
+
+        #  -s means, it is the name of the shell you want for the user, in this case /bin/bash
+
+
+It's done
