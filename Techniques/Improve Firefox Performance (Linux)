@@ -1,0 +1,7 @@
+#1 Enable WebRender
+Steps:
+    1. Open about:config in a new tab (Ans Okay The Warning)
+    2. Search gfx.webrender.all
+    3. Set The Value To true to enable WebRender (or false to disable it)
+
+#2 Soon!
