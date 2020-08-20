@@ -1,0 +1,43 @@
+Chapter 1: Web Application (In)security
+    1:  Evolution Of Web Applications:
+        -> In early days www for repo of sites with static documents and web browsers were made to display them it had one way flow server to browser. No Authentication, Everyone was treated equally, Most of the vulnerabilities were in hosting servers and bugs in hosting softwares, if attackers gains access he will not get anything confidential because everything is open but he can modify.
+        -> Today www is now all new, most of the websites are now web applications an rely on 2 way flow, now supports registrations, logins, transactions, search, authoring of the content, content is now presented dynamically and tailored to specific users, most of the info is private and sensitive, security is a big concern, most of the web apps made in home by developers who have partial knowledge about security, web apps normally require connectivity to internal networks or nodes which have all the sensitive data in them.
+    
+    2:  Common Web Application Functions:
+        -> Web Applications can be made for any thing like shopping, social networking, banking, search, interactive information etc.
+        -> Web applications are widely used organizations to support key business functions.
+        -> HR applications allowing users to access payroll information, give and receive performance feedback, and manage recruitment and disciplinary procedures.
+        -> Administrative interfaces to key infrastructure such as web and mail servers, user workstations, and virtual machine administration.
+        -> Business applications such as enterprise resource planning (ERP) software, which previously were accessed using a proprietary thick-client application, can now be accessed using a web browser.
+        -> Software services such as e-mail, which originally required a separate e-mail client, can now be accessed via web interfaces such as Outlook Web Access.
+        -> Traditional desktop office applications such as word processors and spreadsheets have been migrated to web applications through services such as Google Apps and Microsoft Office Live.
+        -> organizations move to outside service providers to cut costs
+    
+    3:  Benefits Of Web applications
+        -> www is accessed through http, http is lightweight and connectionless. no need to hold open connection for each user,http can be proxied and tunneled to other protocols allowing secure communication in any network.
+        -> Web applications deploy their user interface dynamically to the browser, avoiding the need to distribute and manage separate client software
+        -> Client-side scripting enables applications to push part of their processing to the client side, and browsers’ capabilities can be extended in arbitrary ways using browser extension technologies where necessary.
+
+    4: Web Application Security
+        -> The most serious attacks against web applications are those that expose sensitive data or gain unrestricted access to the back-end systems on which the application is running.
+        -> system downtime is a loss for companies and organizations.
+        -> majority of web applications are insecure, despite the widespread usage of SSL technology and the adoption of regular PCI scanning.
+        -> Broken Authentication: This category of vulnerability encompasses various defects within the application’s login mechanism, which may enable an attacker to guess weak passwords, launch a brute-force attack, or bypass the login.
+        -> Broken Access Control: This involves cases where the application fails to properly protect access to its data and functionality, potentially enabling an attacker to view other users’ sensitive data held on the server or carry out privileged actions.
+        -> Sql Injection: This vulnerability enables an attacker to submit crafted input to interfere with the application’s interaction with back-end databases. An attacker may be able to retrieve arbitrary data from the application, interfere with its logic, or execute commands on the database server itself.
+        -> Cross-site Scripting: This vulnerability enables an attacker to target other users of the application, potentially gaining access to their data, performing unauthorized actions on their behalf, or carrying out other attacks against them.
+        -> Information Leakage: This involves cases where an application divulges sensitive information that is of use to an attacker in developing an assault against the application, through defective error handling or other behavior.
+        -> Cross-site Request Forgery: This fl aw means that application users can be induced to perform unintended actions on the application within their user context and privilege level. The vulnerability allows a malicious web site visited by the victim user to interact with the application to perform actions that the user did not intend.
+        -> ssl will save your data from eavesdroppers while transmitting it between web browser and server.
+        -> ssl will not prevent direct attacks on server and client component.
+    
+    5: Core Security Problems:
+        -> Users Can Submit Arbitrary Input:
+            --> The application must assume that all input is potentially malicious.
+            --> Users can interfere with any piece of data transmitted between the client and the server, including request parameters, cookies, and HTTP headers. Any security controls implemented on the client side, such as input validation checks, can be easily circumvented.
+            --> Users can send requests in any sequence and can submit parameters at a different stage than the application expects, more than once, or not at all.
+            --> Majority of attacks against web applications involve sending input to the server that is crafted to cause some event that was not expected or desired by the application’s designer.
+            --> SSL does not stop an attacker from submitting crafted input to the server.
+
+        -> Key Problem Factors:
+            --> Underdeveloped Security Awareness  
