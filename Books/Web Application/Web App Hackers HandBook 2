@@ -40,4 +40,4 @@ Chapter 1: Web Application (In)security
             --> SSL does not stop an attacker from submitting crafted input to the server.
 
         -> Key Problem Factors:
-            --> Underdeveloped Security Awareness  
+            --> Underdeveloped Security Awareness 
