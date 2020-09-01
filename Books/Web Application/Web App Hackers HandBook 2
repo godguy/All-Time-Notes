@@ -39,5 +39,37 @@ Chapter 1: Web Application (In)security
             --> Majority of attacks against web applications involve sending input to the server that is crafted to cause some event that was not expected or desired by the application’s designer.
             --> SSL does not stop an attacker from submitting crafted input to the server.
 
-        -> Key Problem Factors:
-            --> Underdeveloped Security Awareness 
+Chapter 2: Core Defense Mechanisms
+    1:  Handling User Access
+        -> Authentication: process of validating that the user is in fact who he claims to be. Without this facility, the application would need to treat all users as anonymous, the lowest level of trust.
+        -> Session Management: all web applications meet this requirement by creating a session for each user and issuing the user a token that identifies the session. The session itself is a set of data structures held on the server that track the state of the user’s interaction with the application. The token is a unique string that the application maps to the session. When a user receives a token, the browser automatically submits it back to the server in each subsequent HTTP request, enabling the application to associate the request with that user. majority of attacks it seeks is to compromise the session token issued to other user, if its possible then it will result in complete account takeover. vulnerability can be found in how tokens are generated, enabling an attacker to guess the tokens issued to other users, and defects in how tokens are subsequently handled, enabling an attacker to capture other users’ tokens.
+        -> Access Control: If the mechanisms just described are functioning correctly, the application knows the identity of the user from whom each request is received. On this basis, it needs to decide whether that user is authorized to perform the action, or access the data, that he is requesting. The access control mechanism usually needs to implement some fi  ne-grained  logic, with different considerations being relevant to different areas of the application and different types of functionality. Because of the complex nature of typical access control requirements, this mechanism is a frequent source of security vulnerabilities that enable an attacker to gain unauthorized access to data and functionality.
+    
+    2: Handling User Input:
+        -> Approaches To Input Handling:
+            --> Reject Known Bad: This approach typically employs a blacklist containing a set of literal strings or patterns that are known to be used in attacks. The validation mechanism blocks any data that matches the blacklist and allows everything else.
+                
+                Many blacklist-based filters can be bypassed with almost embarrassing ease by making trivial adjustments to the input that is being blocked. For example: 
+                    -> If SELECT is blocked, try SeLeCt
+                    -> If or 1=1-- is blocked, try or 2=2--n
+                    -> If alert(‘xss’) is blocked, try prompt(‘xss’)
+            
+                In other cases, filters designed to block specific keywords can be bypassed by using nonstandard characters between expressions to disrupt the tokenizing performed by the application. For example:
+                
+                    -> SELECT/*foo*/username,password/*foo*/FROM/*foo*/users
+                    -> <img%09onerror=alert(1) src=a>
+
+            --> Accept Known Goods: This approach employs a whitelist containing a set of literal strings or patterns, or a set of criteria, that is known to match only benign input. The validation mechanism allows data that matches the whitelist and blocks everything else. 
+
+            --> Sanitization: This approach sanitizes the input i different ways like s. Potentially mali-cious characters may be removed from the data, leaving only what is known to be safe, or they may be suitably encoded or “escaped” before further processing is performed. 
+
+            --> Safe Data Handling: Many web application vulnerabilities arise because user-supplied data is pro-cessed in unsafe ways. Vulnerabilities often can be avoided not by validating the input itself but by ensuring that the processing that is performed on it is inherently safe. In some situations, safe programming methods are available that avoid common problems.
+
+            --> Semantic Checks: Check for malformed crafted data.
+
+        -> Boundary Validation:  
+            --> Input validation checks implemented on the client side may improve performance and the user’s experience, they do not provide any assurance about the data that actually reaches the server.
+            
+            --> The role of input validation is to clean potentially malicious data on arrival and then pass the clean data to the trusted application. From this point onward, the data may be trusted and processed without any further checks or concern about possible attacks.
+            
+            --> 
