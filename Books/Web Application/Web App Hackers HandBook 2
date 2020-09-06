@@ -40,7 +40,7 @@ Chapter 1: Web Application (In)security
             --> SSL does not stop an attacker from submitting crafted input to the server.
 
 Chapter 2: Core Defense Mechanisms
-    1:  Handling User Access
+    1: Handling User Access
         -> Authentication: process of validating that the user is in fact who he claims to be. Without this facility, the application would need to treat all users as anonymous, the lowest level of trust.
         -> Session Management: all web applications meet this requirement by creating a session for each user and issuing the user a token that identifies the session. The session itself is a set of data structures held on the server that track the state of the user’s interaction with the application. The token is a unique string that the application maps to the session. When a user receives a token, the browser automatically submits it back to the server in each subsequent HTTP request, enabling the application to associate the request with that user. majority of attacks it seeks is to compromise the session token issued to other user, if its possible then it will result in complete account takeover. vulnerability can be found in how tokens are generated, enabling an attacker to guess the tokens issued to other users, and defects in how tokens are subsequently handled, enabling an attacker to capture other users’ tokens.
         -> Access Control: If the mechanisms just described are functioning correctly, the application knows the identity of the user from whom each request is received. On this basis, it needs to decide whether that user is authorized to perform the action, or access the data, that he is requesting. The access control mechanism usually needs to implement some fi  ne-grained  logic, with different considerations being relevant to different areas of the application and different types of functionality. Because of the complex nature of typical access control requirements, this mechanism is a frequent source of security vulnerabilities that enable an attacker to gain unauthorized access to data and functionality.
@@ -72,4 +72,73 @@ Chapter 2: Core Defense Mechanisms
             
             --> The role of input validation is to clean potentially malicious data on arrival and then pass the clean data to the trusted application. From this point onward, the data may be trusted and processed without any further checks or concern about possible attacks.
             
-            --> 
+            --> Many application functions involve chaining together a series of different types of processing. A single piece of user-supplied input might result in a number of operations in different components, with the output of each being used as the input for the next. As the data is transformed, it might come to bear no resemblance to the original input.
+
+            --> Preventing cross-site scripting attacks may require the application to HTML-encode the > character as &gt;, and preventing command injection attacks may require the application to block input containing the & and ; characters. Attempting to prevent all categories of attack simultaneously at the application’s external boundary may sometimes be impossible.
+
+            -->  This model provides a solution to the problems just described. Each component can defend itself against the specifi c types of crafted input to which it may be vulnerable. As data passes through different components, validation checks can be performed against whatever value the data has as a result of previous transformations. And because the various validation checks are implemented at different stages of processing, they are unlikely to come into conflict with one another.
+
+            --> User Login suitable validation at each step
+                
+                - application receives login info, form handler checks for length and known attack signatures.
+
+                - Sql query is performed for user validation and all the characters which can construct a sql injection has ben removed before making the query.
+
+                - if login succeeds, applications will pass specific information to SOAP service to retrieve future information, to prevent SOAP injection attacks, any XML meta characters within the user's profile data are suitably encoded.
+
+                - The application displays the user’s account information back to the user’s browser. To prevent cross-site scripting attacks, the application HTML-encodes any user-supplied data that is embedded into the returned page.
+
+        -> Multi-step Validation and Canonicalization
+
+            --> if <script> tag is being sanitized an attacker can use something like this <scr<script>ipt> when the <script> tag is removed the surrounding data will contract and will become that tag again. because the filter is not applied recursively.
+            --> if application removes ../ recursively and then remove ..\ then it can be defeated by ....\/
+            --> if application blocks the apostrophe character then you can use %2527, when normal url decode happens it will become %27 and when application perform further url decode it will become '
+
+    3: Handling Attackers
+        -> Handling Errors:
+            --> A key defense mechanism is for the application to handle unexpected errors gracefully, and either recover from them or present a suitable error message to the user.
+
+            -->  most application servers can be confi gured to deal with unhandled application errors in customized ways, such as by presenting an uninformative error message.
+
+            -->  Unexpected errors often point to defects within the application’s defenses that can be addressed at the source if the application’s owner has the required information.
+
+        -> Maintaining Audit Logs:
+            --> Audit logs are valuable primarily when investigating intrusion attempts against an application.
+
+            --> key events should be logged like:
+                - All events relating to the authentication functionality, such as successful and failed login, and change of password.
+                - Key transactions, such as credit card payments and funds transfers.
+                - Access attempts that are blocked by the access control mechanisms.
+                - Any requests containing known attack strings that indicate overtly malicious intentions.
+
+            --> Effective audit logs typically record the time of each event, the IP address from which the request was received, and the user’s account (if authenticated). Such logs need to be strongly protected against unauthorized read or write access.
+
+            --> Poorly protected audit logs can provide a gold mine of information to an attacker, disclosing a host of sensitive information such as session tokens and request parameters. This information may enable the attacker to immediately compromise the entire application.
+
+        -> Alerting Administrators:
+            --> Audit logs enable an application’s owners to retrospectively investigate intrusion attempts and, if possible, take legal action against the perpetrator.
+
+            --> it's more reliable to do a realtime action like blocking the ip address from which attack payloads are coming.
+
+            --> Alerting mechanisms often include the following factors to report:
+
+                - Usage anomalies, such as large numbers of requests being received from a single IP address or user, indicating a scripted attack.
+                - Business anomalies, such as an unusual number of funds transfers being made to or from a single bank account.
+                - Requests containing known attack strings.
+                - Requests where data that is hidden from ordinary users has been modified.
+
+        -> Reacting To Attacks
+        
+    4: Managing The Application:
+        -> Administrative functions are implemented within the application itself, accessible through the same web interface as its core non security functionality.
+
+        -> The administrative mechanism represents a critical part of the application’s attack surface. Its primary attraction for an attacker is as a vehicle for privilege escalation.
+            --> Weaknesses in the authentication mechanism may enable an attacker to gain administrative access, effectively compromising the entire application.
+
+            --> Many applications do not implement effective access control of some of their administrative functions. An attacker may fi nd a means of creating a new user account with powerful privileges.
+
+            --> Administrative functionality often involves displaying data that originated from ordinary users. Any cross-site scripting fl aws within the administrative interface can lead to compromise of a user session that is guaranteed to have powerful privileges.
+
+            --> Administrative functionality is often subjected to less rigorous security testing, because its users are deemed to be trusted, or because penetration testers are given access to only low-privileged accounts. 
+
+Chapter 3: Web Application Technologies
