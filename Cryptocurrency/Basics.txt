@@ -1,0 +1,12 @@
+Measures: 
+    1. Be Careful, always be Careful because if you loose your funds then its gone.
+    2. Golden Rule Of Investing "Never Invest More Then You Can Afford To Loose"
+    3. It's Extremely important to pay attention to the url's of the website you are accessing so that you are not accessing a fake one that is pretending to be real one.
+    4. always check for the https in the url not just http, because https has ssl(secure socket layer) which prtect information from attackers poking the network.
+    5. Solution is when you sign up on the real website bookmark and access it using only the bookmark.
+    6. always write your passwords and sensitive information on paper and keep it safe
+    7. Do Full-System scan all your systems(computer, laptop, mobile) using a anti-malware solution(i use malwarebytes).
+    8. make super-strong password.
+    9. Create a encrypted email(like: protonmail) and use it only for crypto purpose only. Don't use it anywhere else and don't tell about it to anyone.
+    10. Use 2 factor authenticator apps(Google authenticator & authy).
+    11. 

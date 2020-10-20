@@ -142,3 +142,68 @@ Chapter 2: Core Defense Mechanisms
             --> Administrative functionality is often subjected to less rigorous security testing, because its users are deemed to be trusted, or because penetration testers are given access to only low-privileged accounts. 
 
 Chapter 3: Web Application Technologies
+    1: The HTTP Protocols
+        -> Hypertext Transfer Protocol
+            --> originally made to fetch static web pages
+
+            --> HTTP uses a message-based model in which a client sends a request mes-sage and the server returns a response message. 
+
+            --> protocol is essentially connection-less: although HTTP uses the stateful TCP protocol as its transport mechanism.
+
+        -> HTTP Request
+            --> GET Method is used to retrieve resources from the web server.
+
+            --> GET Method does not have body message.
+
+            --> The query string is indicated by the ? character in the URL.
+
+            --> Most Browsers use HTTP 1.1 as default.
+
+            --> Host Request Header is mandatory.
+
+            --> The Referer header is used to indicate the URL from which the request originated.
+
+            --> The User-Agent header is used to provide information about the browser or other client software that generated the request.
+
+            --> The Host header specifies the hostname that appeared in the full URL being accessed. This is necessary when multiple websites are hosted on the same server, because the URL sent in the fi  rst line of the request usu-ally does not contain a hostname.
+            
+            --> The Cookie header is used to submit additional parameters that the server has issued to the client
+        
+        -> HTTP Response
+            --> First line of every HTTP response consists of three item.
+                    - HTTP Version being used.
+                    - A numeric status code indicating the result of the request.
+            --> Some Other points
+                    - Information contained in server header may or may not be accurate.
+                    - Pragama header instructs browser to not store any response in server.
+                    - Expirer header indicates that response content has expired. In Case of dynamic content
+
+        -> HTTP Methods 
+            --> Get Method:
+                    - It is used to retrieve resources from the URL(Uniform Resource Locator).
+                    - URL's are also transmitted in Referer header when external links are followed.
+                    - That's why query strings should not transmit any sensitive information.
+
+            --> Post Method:
+                    - It is designed to perform actions.
+                    - With this method, request parameter can be sent in both url string and in the body of the message.
+                    - If you try to visit the previous page(using the back button) which was generated using this method, browser will generate a warning and by confirming it browser will generate that request again.
+            
+            --> Some Other Points
+                    - Head method is used to check if resource is available before generating a Get Request.
+                    - Trace Method is used to detect if proxy server is manipulating the request or not because it will send strings in body tab and server will respond with same strings in body tab.
+                    - Options Method will ask the server about the http method for a particular resource and server will return a response containing an allow header that lists the available method.
+                    - Put method tries to upload a file on server using the content contained in the body. If this method is enabled attacker may be able to perform an attack like uploading an arbitrary script and executing it on server.
+
+        -> URLs
+            --> An Uniform Resource Locator(URL) is a unique identifier for a specific web resource.
+            --> Format
+                    - protocol://hostname[:port]/[path/]file[?param=value]
+                    - Serveral components are optional, like port if the server is not using the defaults.
+            
+            -->  URI
+                    - Uniform Resource Identifier
+                    - Url And Uri Are Same.
+                    - It is really used in formal specifications and by those who want t exhibit their pedantry.
+
+            --> REST
