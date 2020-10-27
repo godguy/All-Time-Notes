@@ -1,0 +1,56 @@
+If you want to report mistake or correction please check out Readme.md in Questions Folder. THANK YOU 😋
+
+
+Q1. Any real or suspected event in relation to the security of the computer system/networks is?
+Ans. Computer Security Incident.
+
+Link: https://www.terena.org/activities/tf-csirt/iodef/docs/i-taxonomy_terms.html
+
+Q2. Which one is not the benefit of vulnerability assessment and penetration testing?
+    -> identifies vulnerabilities and risks in your networking infrastructure
+    -> Validates the security of system upgrades.
+    -> does not protects the integrity of online assets.
+    -> raise executive awareness of corporate liability.
+
+Ans. 3
+
+Q3. Security procedure includes.
+    -> the level of sophistication of the parties with reference to their technological capacity.
+    -> the volume of similar transactions engaged in by other parties.
+    -> the procedure in general use of similar types of transaction or communications.
+    -> All 0f these.
+
+Ans. 4
+
+Q4. The Reserve Bank of India Act, 1934 shall be amended in the manner specified in the forth schedule to this Act.
+Ans. ?
+
+Q5. Why has ISO 17799 been renamed to ISO 27002?
+Ans. Wanted to align the information security standards under a common naming structure ISO 2700
+
+Q6. Full Form of CIA in ISMS?
+Ans. Confidentiality, Integrity And Availability.
+
+Q7. Registry Keys Contain sub-key, but can't contain any sub-keys.
+Ans. False
+
+Q8. There are 2 types of attacks.
+Ans. Technical And Non-Technical Attacks.
+
+Q8. What is Ping Of Death?
+Ans. An attacker sends an ICMP echo request packet that's larger than the maximum IP packet size. It can't reassemble the packets, so the OS crashes and reboots.
+
+Q9. A monolithic system is integrated into a single unit.
+Ans.  True
+
+Q10. Symptoms if you are infected with DDOS attack.
+    -> Programs run slowly
+    -> services fail at a hgh rate
+    -> users complaint about slow (or no) site access.
+
+Ans. All of these.
+
+Q10. Those people who have been either sacked by their employer or are dissatisfied with their employer are known as discontented employees.
+Ans. True.
+
+Q11. 

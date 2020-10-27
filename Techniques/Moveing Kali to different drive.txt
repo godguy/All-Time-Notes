@@ -1,0 +1,24 @@
+Running out of space for keeping WSL on your Windows drive?
+
+
+First, we will create a folder where we want our files to be moved.
+Here, for example, I’ll be using F:\WSL
+
+Now, let’s install LxRunOffline!
+For Chocolatey users: choco install lxrunoffline (https://chocolatey.org/install)
+For Scoop users: scoop bucket add extras and then scoop install lxrunoffline (https://scoop.sh/)
+Alternatively, you can get the binaries by following the steps mentioned here. (https://github.com/DDoSolitary/LxRunOffline#install)
+
+Now, let’s see which distro you want to move!
+Run the command lxrunoffline list.
+It will list all the distros you have installed under WSL.
+Here, for example, let’s say I got kali-linux.
+
+Now, lets’ move it!
+Use the command lxrunoffline move -n <distro name you got from lxrunoffline list> -d <where you want the distro to go>
+So, for my example case, the distro was kali-linux and I wanted it to go to F:\WSL\Kali then I need to run the command lxrunoffline move -n kali-linux -d F:\WSL\Kali . Now, here comes the most important part: making yourself a coffee or something while it moves all your files (you may as well have your pizza if that’s your thing)! And Tada! You have moved all your WSL Distro files to the new location!
+
+
+
+
+Original Article Link: https://medium.com/@sayanisflame/running-out-of-space-for-keeping-wsl-on-your-windows-drive-6bf5755e6cb6
