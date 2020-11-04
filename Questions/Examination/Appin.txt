@@ -53,4 +53,161 @@ Ans. All of these.
 Q10. Those people who have been either sacked by their employer or are dissatisfied with their employer are known as discontented employees.
 Ans. True.
 
-Q11. 
+Q11. Any medium on which you save your files apart fro your primary computer is considered backup?
+Ans. True
+
+Q12. A ..... packet-based data bearer service for wireless communication services.
+    -> GSM
+    -> CDMA
+    -> GPRS
+    -> All of These.
+
+Ans. GSM (Global System for Mobile Communication)
+
+Q13. "HKEY_CLASSES_ROOT" Which is hives in the command?
+Ans. 
+
+Q14. The policy file is primarily used in business with a large number of computers where the business needs to be protected from rogue or careless users.
+Ans. True
+
+Q15. According to ____, The vulnerability is caused due to an error in the handling of windows metafile files.
+Ans. Secunia
+
+Q16. The presence of any potential event that causes an undesirable impact?
+Ans. Risk
+
+Q17. Backup Approaches are.
+    -> File Backup Approach
+    -> Clone backup Approach
+    -> Full Backup Image Approach
+
+Ans. None of the above
+
+Q18. It is less disciplined mode of communication which can send a message whenever it whishes to?
+Ans. Asynchronous Communication.
+
+Q19. Why did we move to iso 27001 from BS7799?
+    -> Elevation to international standard status
+    -> More organizations are excepted to adopt it
+    -> definition alignment with other ISO standards
+
+Ans.  All of these
+
+Q20. A _____ is a collection of tools (programs) that enables administration-level access to a computer or computer network?
+Ans. Rootkits
+
+Q21. It is a naturally occurring calamitous event bringing great damage or loss?
+Ans. Natural Disaster
+
+Q22. The highest level of information classification is called?
+Ans. Top Secret
+
+Q23. Port scanning is used for:-
+Ans. A port scan is a method for determining which ports on a network are open. As ports on a computer are the place where information is sent and received, port scanning is analogous to knocking on doors to see if someone is home.
+    OR
+    Get a list of open ports and services
+
+Q24. Data collection components collects the dynamic/static information as captured is known as interpretation.
+Ans. 
+
+Q25. The _______ can have devastating consequences if information resources are poorly protected?
+Ans. users and server both
+
+Q26. Hardware requirements of computer forensics is/are:
+    -> Familiarity with all internal and external devices/components of a computer
+    -> Throughout understanding of hard drives and settings
+    -> understanding motherboards and the various chip-sets used.
+
+Ans. All of these
+
+Q27. What is screening?
+Ans. 
+
+Q28. License to issue Digital Signature Certificates include:
+    -> Subjects to the provisions of sub-section
+    -> No license shall be issued under sub-section
+
+Ans.
+
+Q29. On MS-DOS systems, viruse's files usually have the extension.
+    -> .exe
+    -> .com
+    -> .sys or .bat
+    -> All of the above
+
+Ans. All of the above
+
+Q30. Specifications-based detection is the derivative of anomally-based detection.
+Ans. 
+
+Q31. Benefits Of data security?
+    -> helps to ensure privacy
+    -> helps in protecting personal data
+
+Ans.
+
+Q32. What is deaf UDP Scan?
+Ans.
+
+Q33. Computer networks that are currently connected to internet are vulnerable to variety of exploits that can compromise their intended operations is known as?
+Ans.
+
+Q34. SMTP works at which layer?
+Ans. Application layer
+
+Q35. Despite claims that protect data assets and is strategic to an enterprise is known as
+Ans. 
+
+Q36. First Step of Pen Test is?
+Ans. Foot-printing and Information Gathering
+
+Q37. Examples of symmetric key cryptography algorithms
+Ans. RC4, RC5, IDEA, Data Encryption standard
+
+Q38. Existence of weakness, design and implementation error that can lead to an unexpected and undesirable event compromising the security of the system is called?
+Ans. Vulnerability
+
+Q39. A _______ keeps track of information about the subscriber.
+Ans. VLR (Visitor Location Register)
+
+Q40. HKCR stands for?
+Ans. HKEY_CLASSES_ROOT
+
+Q41. It is an exploitable capability,  an exploitable security weakness or deficiency ar a facility?
+Ans. Security Vulnerability
+
+Q42. Act of transforming data into an unreadable format is called?
+Ans. Enciphering
+
+Q43. Unix like operating system like solaris and linux used to support co-operative multitasking?
+Ans. True
+
+Q44. the ____ represents the percentage of loss that is realized threat event would have on a specific asset?
+Ans. 
+
+Q45. The ___ are primarily responsible for determining the data's sensitivity or classification levels?
+Ans. Security Professional
+
+Q46. Which of the following legal requirements are satisfied by digital signature?
+    -> Signer Authentication
+    -> Message Authentication
+    -> Message Integrity
+
+Ans.All Of These
+
+Q47. The Strength of the encryption method comes from the
+Ans. Secrecy of the key, algorithm, length of the key
+
+Q48. Which Type of virus is difficult to detect, as can be hidden from anti-virus software?
+Ans. Polymorphic Viruses
+
+Q49. A ________ executive might authorize the release of classified information to external entities or organization?
+Ans. Senior Level
+
+Q50. Which is not a part denial of service attacks?
+    -> The attack does not completely disable the internet server
+    -> the denial of service is a difficult attack to detect and protect
+    -> it is a type of Sql Injection attack
+Ans. 3
+
+Q51. 
