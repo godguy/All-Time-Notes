@@ -1,6 +1,5 @@
 If you want to report mistake or correction please check out Readme.md THANK YOU 😋
 
-
 Q1. Any real or suspected event in relation to the security of the computer system/networks is?
 Ans. Computer Security Incident.
 
@@ -23,7 +22,7 @@ Q3. Security procedure includes.
 Ans. 4
 
 Q4. The Reserve Bank of India Act, 1934 shall be amended in the manner specified in the forth schedule to this Act.
-Ans. ?
+Ans. 
 
 Q5. Why has ISO 17799 been renamed to ISO 27002?
 Ans. Wanted to align the information security standards under a common naming structure ISO 2700
@@ -210,4 +209,252 @@ Q50. Which is not a part denial of service attacks?
     -> it is a type of Sql Injection attack
 Ans. 3
 
-Q51. 
+Q51. what is stealth virus?
+Ans. a stealth virus is a computer virus that uses various mechanisms to avoid detection by antivirus software. Generally, stealth describes any approach to doing something while avoiding notice.
+
+Q52. Areas of growing concerns include
+    -> Insider threats
+    -> persistent targeted threats 
+    -> supply chain threats
+
+Ans. 
+
+Q53. Injection is quite a simple method which simply involves directly injecting the secret information into the carrier file
+Ans.  
+
+Q54. Which of these is a hardware or software solution used to protect a network from unauthorized access?
+Ans. Firewall
+
+Q55. Act/s for digital signature is/are:
+Ans. -> Any Person by the use of a public key of the subscriber can verify the electronic record
+     -> Authentication of electronic records
+
+Q56. Serpent algorithm is developed by 
+Ans. Ross Anderson
+
+Q57. The registry can b manipulated in multiple ways using the command line
+Ans. True
+
+Q58. Who defines the 3rd generation(3G) of mobile telephony standards
+Ans. International Telecommunications Union (ITU)
+
+Q59. Passfit.dll provides enhanced security against 'Password guessing' or' dictionary attacks' by outside intruders.
+Ans. True
+
+Q60. _____ mode is a block cipher implementation as a self-synchronizing stream cipher
+Ans. Cipher Feedback mode
+
+Q61. Operating systems created a link between .......... and the applications from the core of computer systems.
+Ans. Users
+
+Q62. A third party patch was released by Ilfak Guilfanov on ________ to temporarily disable the vulnerable function call ingdi32.dll 
+Ans.31 december 2005
+
+Q63. The _________ is technically a form of non-discretionary access control?
+Ans. RBAC (Role Based Access Control)
+
+Q64. We all store valuable information either in
+    -> Memories
+    -> Digital Storage Device
+    -> Paper Documents
+    -> All of these
+
+Ans. All Of these
+
+Q65. What is the function of forensic response toolkit
+Ans. Detect the forensically accepted evidence
+
+Q66. Encryption is a method of transforming original data called
+Ans. Plain-text
+
+Q67. which element of intellectual property law provides the creator of work exclusive rights for 17 years?
+Ans. Copyright
+
+Q68. Linus is a ________ Operating systems
+Ans. Open-Source 
+
+Q69. When using IPSec, What is the typical ISAKMP/IKE port that needs to be open at a firewall?
+Ans. UDP Port 500
+
+Q70. Virus dissemination is a malicious software that attaches itself to other software like virus, worms, Trojan horse without knowledge of users.
+Ans. True
+
+Q71. What is pre-texting?
+Ans. Pre-texting is a form of social engineering where a criminal creates a fictional backstory that is used to manipulate someone into providing private information or to influence behavior.
+
+Q72. A trojan horse is a destructive program that has been disguised ans concealed in an innocuous piece of software.
+Ans. True
+
+Q73. DES has an effective key length of?
+Ans. 56 bit
+
+Q74. Cryptography comes from the Greek word
+Ans. kryptós
+
+Q75. SAS is a signal to the operating system that someone is trying to log-on
+Ans. 
+
+Q76. Threat is an event that might compromise security?
+Ans. True
+
+Q77. Advantage/s of Windows centralized registry over legacy INI files is/are:
+    -> Strongly-typed can be stored in the registry, as a component to oly textual information in INI files
+    -> Separation of machine configuration from user configuration
+    -> The entire registry can be backed-up more easily as it is just a small number of files in specific locations 
+
+Ans. All Of These
+
+Q78. Which of the following protocols developed by CISCO?
+    -> IP Tunneling
+    -> l2tp
+    -> pptp
+
+Ans. Layer Two Tunneling Protocol (L2TP)
+
+Q79. A vulnerability scan provides 
+Ans. On demand network discovery, vulnerability assessment reporting, remediation tracking
+
+Q80. MAC Stands for?
+    -> Mandatory Access Control
+    -> Media Access Control
+
+Ans. both
+
+Q81. Email related crimes are:
+Ans. Email Spoofing, Sending Malicious Code through email, Email Bombing
+
+Q82. True decrypt is an excellent open source disk encryption system.
+Ans. False
+
+Q83. Policies may be applied locally to a multiple computers in a network using
+Ans. GPEdit.msc
+
+Q84. What are the common types of social engineering?
+Ans. Human Based And Computer Based
+
+Q85. Hackers can write worms into bot software to create hybrid threats
+Ans. True
+
+Q86. A _________ are safeguard measures?
+Ans. Security, Management, Control
+
+Q87. Which of the following hardware or software solution used to protect a network from unauthorized access?
+Ans. Firewall
+
+---> An Intrusion Detection System (IDS) is a system that monitors network traffic for suspicious activity and issues alerts when such activity is discovered. It is a software application that scans a network or a system for harmful activity or policy breaching.
+
+Q88. A bug or misconfiguration or special sets of circumstances that could result in an exploitation of the vulnerability are called vulnerability?
+Ans. True 
+
+Q89. Which one is classful protocol?
+    -> ripv1 (Routing Information Protocol)
+    -> IGRP (Interior Gateway Routing Protocol)
+    -> both 1 & 2
+    -> BGP (Border Gateway Protocol)
+
+Ans. Both A & B
+
+Q90. Digital Signature is an example of?
+Ans. Asymmetric cryptography
+
+Q91. Forensic analysis includes all the data collected.
+Ans. True
+
+Q92. categories of cyber-crime is
+Ans. Cyber-Security in a narrow and broader sense
+
+Q93. Mode and manner of committing cyber-crime are:
+    -> Data diddling
+    -> Salami Attacks
+    -> Internet Time Theft
+
+Ans. All of these
+
+Q94. The components of Information security and ethical hacking are _________
+Ans.Confidentiality, Integrity, Availability
+
+Q95. The indian Penal code shall be amended in the manner specified in the first schedule t this Act.
+Ans.
+
+Q96. What are the aspects of Security?
+Ans. Dynamic And Static assets
+
+Q97. Vulnerability is the existence of flaw or weakness in communication that can be exploited resulting ina violating of security policy.
+Ans. True
+
+Q98. A _______ attack consists of trying every possible code, combination or password until you find the right one?
+Ans. Brute Force
+
+Q99. Which is the most serious attack which is used to down or disable the server?
+Ans. Denial Of Service Attack
+
+Q100. Co-operative multi-tasking is achieved by relying on each process to give time to the other processes in a defined manner.
+Ans. True
+
+Q101. How we can protect against the windows service vulnerabilities?
+Ans.Use Windows Firewall And update your system
+
+Q102. Full Form of IRC?
+Ans. Internet Relay Chat
+
+Q103. Counter measures of malware detection.
+Ans. Vaccine Software and Keep it Up-to-Date, email Attachments Files Should be scanned
+
+Q104. Vulnerability assessment and penetration testing is the service for auditing, reporting for your company's web based applications
+Ans. True
+
+Q105. Are there any virus scanners for linux?
+Ans. No
+
+Q106. It specifies hoe software components should interact with each other.
+Ans. API (Application Programming Interface)
+
+Q107. The console enforces role-based separation of duties through a built-in access control mechanism that designated three distinct privilege levels: administrator, user, and viewer.
+Ans. AppSec Inc console
+
+Q108. The commercial and government web sites illustrate the potential for damage from?
+    -> Virus
+    -> Worm
+    -> DOS (Denial Of Service)
+
+Ans.All Of These 
+
+Q109. Public key encryption uses SSL (Secure Socket Layer) to encrypt all data between the customer's computer and the e-commerce website.
+Ans. True
+
+Q110. The registry can be edited manually in Microsoft Windows by running ________
+Ans. regedit.exe
+
+Q111. A stack based buffer overflow attack the program being exploited uses a memory location known as stack to store user input.
+Ans. True
+
+Q112. Out of 13 chapters in IT Act 2000 which chapter has got ten major offense that includes tempering sources, hacking, cyber pornographyetc.
+    -> Chapter 5
+    -> Chapter 9
+    -> Chapter 3
+    -> Chapter 11
+
+Ans. 
+
+Q113. Which of the following is a MAgic ISO supported CD/DVD image type?
+Ans. VDI (Virtual Desktop Infrastructure)
+
+Q114. Which is the most common attack botnets are used in?
+Ans. DDOS (Denial Of Service Attack)
+
+Q115. .pst extension is used for:
+Ans. Personal Files
+
+Q116. A series of yte-oriented algorithms that produce a 128-bit hash value from an arbitary-length message is called Message Digest
+Ans. True
+
+Q117. Resuming normal operations as quickly as possible minimizes business disruption?
+Ans. drp 
+
+Q118. Types of chiper test are
+Ans. Block type cipher text And Stream type cipher text
+
+Q119. Vulnerability scanner is needed to be run periodically to:
+Ans. Check For remote vulnerability
+
+Q120.
