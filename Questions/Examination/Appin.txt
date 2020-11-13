@@ -436,7 +436,7 @@ Q112. Out of 13 chapters in IT Act 2000 which chapter has got ten major offense 
 
 Ans. 
 
-Q113. Which of the following is a MAgic ISO supported CD/DVD image type?
+Q113. Which of the following is a Magic ISO supported CD/DVD image type?
 Ans. VDI (Virtual Desktop Infrastructure)
 
 Q114. Which is the most common attack botnets are used in?
@@ -457,4 +457,125 @@ Ans. Block type cipher text And Stream type cipher text
 Q119. Vulnerability scanner is needed to be run periodically to:
 Ans. Check For remote vulnerability
 
-Q120.
+Q120. Cyber forensic primarily is used in the investigation of:
+    -> Cyber Attack
+    -> Cyber terrorism
+
+Ans. Both
+
+Q121. Active attacks on communication network Does Not include
+    -> flooding the network with spurious message
+    -> changing the order of the message
+    -> traffic analysis
+    -> modification of the message
+
+Ans. Traffic Analysis 
+
+Q122. HKEY_CLASSES_USER stores settings that are specific to the currently logged-in user
+Ans. True
+
+Q123. Nessus can perform various security tests classified in the following plug-in families:
+    -> Backdoors
+    -> CGI abuses
+    -> CISCO
+    -> All of the Above
+
+Ans. All Of The Above 
+
+Q124. SMTP Stands for:
+Ans. SMTP (Simple Mail Transfer Protocol)
+
+Q125. Advantage's pf honeypot is/are
+    -> Reduce false positives and false negatives
+    -> Data value
+    -> Resources
+
+Ans. All Of The Above
+
+Q126. The category of cyber criminals is/are
+    -> Children and adolescents between the age of 6 - 18 years
+    -> Professional Hackers / Crackers
+
+Ans. Both of these
+
+Q127. A hub connects single Ethernet segments together making them act as single segment
+Ans. True
+
+Q128. UCR Stands For:
+Ans. Uniform Crime Report
+
+Q129. A user interface and a nuclear of one or more applications activated at the peripheral station Defined as a
+Ans. Client
+
+Q130. Correct step in which cryptography work.
+Ans. Plain-text, Encryption, Chiper-text, Decryption, Plain-text
+
+Q131. Person with competence to conduct an audit?
+Ans. Auditor
+
+Q132. What did Ethical Hacker can do?
+Ans. Protect computers against illicit entry
+
+Q133. ________ event can be determined through a vulnerability analysis
+Ans. Loss Risk
+
+Q134. Which network device determines the next network point to forward a data packet toward its destination
+Ans. Router
+
+Q135. The _______ doesn't means that lock every thing since availability of data at right time is as important as securing a data?
+Ans. Security
+
+Q136. What is Decoy and Fragmentation?
+Ans. When generating customized TCP/UDP packets, one can spoof or change the source address of the IP packets.
+
+Q137. The registry files User.dat and system.dat is stored in the %WINDIR% directory, in which operating system this file is present?
+Ans. Windows 95
+
+Q138. SFTP stands for:
+Ans. SSH File Transfer Protocol and Secure File Transfer Protocol
+
+Q139. The dynamic-link library file which invokes previewing of image files is named as:
+    -> Shimgvw.dll (Shimgvw.dll file, also known as Visningsprogram för bilder och fax, is commonly associated with Operativsystemet Microsoft® Windows®. It is an essential component, which ensures that Windows programs operate properly. Thus, if the shimgvw.dll file is missing, it may negatively affect the work of the associated software.)
+    -> Passfilt.dll (The PassFilt. dll tool, which appeared with Service Pack 2, enables administrators to establish some rudimentary rules for users' passwords. Implementing password construction rules is usually a good security measure.)
+    -> Msgina.dll (msgina. dll is a module loaded by Winlogon to implement the authentication policy. The file performs all user identification and authentication interactions. msgina. dll is a system process that is needed for your PC to work properly.)
+
+Ans. None Of The Above
+
+Q140. 4G LTE wireless broadband technology developed by?
+Ans. 3GPP (3rd Generation Partnership Project)
+
+Q141. What could be the prevention measures for a fraud happening in an organization?
+Ans. -> Hardening the hosts defences
+     -> Back-ups of critical data
+     -> Comprehensive user education about host based security
+
+Q142. Despite claims that protect data asses and is strategic to an enterprise is known as:
+Ans. Risk Assessment
+
+Q143. Gather evidence in a matter that meets legal standards by:
+Ans. -> Gaining Consent
+     -> Implicit or explicit
+     -> Reducing the disturbance to the original evidence
+
+Q144. A _____ in a computer system is a method of bypassing normal authentication or securing remote access to a computer, while attempting to remain hidden from casual inspection
+Ans. Backdoors
+
+Q145. Does encryption of data is useful in case of physical security?
+Ans. No
+
+Q146. License to issue Digital Certificates include:
+Ans. -> Subject to the provision of sub-section
+     -> No license shall be issue under sub-section
+    
+Q147. List groups of people an individuals who may b affected by the hazards?
+Ans. -> Staff
+     -> Members of the public
+     -> Contractors on the premises
+
+Q148. Which of the following laws of jurisdictions is involved in single transaction?
+Ans. -> The law of the state/nation in which the user resides
+     -> The laws of the state/nation that apply where the server hosting the transaction is located
+     -> The laws of the state/nation which apply to the person or business with whom the transaction takes place
+
+Q149. Viruses that can change their appearance with each infection are known as:
+Ans. Polymorphic Viruses
