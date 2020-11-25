@@ -9,6 +9,6 @@ It ain't much but honest work.
 
 If you have any complaints or any suggestion for corrections 
 
-Email Us: godguym1cky@gmail.com
+Email Us: godguymicky@gmail.com
 
 Thanks!!
